@@ -35,7 +35,35 @@ ___
 
 *Приложите вывод команд установленных версий каждой из программ, оформленный в Markdown.*
 
-## Задача 4 
+### Ответ:
+
+```console
+root@baldin-ubuntu:~# vboxmanage --version
+6.1.38_Ubuntur153438
+```
+
+```console
+root@baldin-ubuntu:~# vagrant -v
+Vagrant 2.2.19
+```
+
+```console
+root@baldin-ubuntu:~# terraform -version
+Terraform v1.4.0
+on linux_386
+```
+
+```console
+root@baldin-ubuntu:~# ansible --version
+ansible 2.10.8
+  config file = None
+  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0]
+```
+
+### Задача 4 
 
 Воспроизведите практическую часть лекции самостоятельно.
 
