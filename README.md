@@ -84,3 +84,12 @@ Error: The requested URL returned error: 404:
 
 1. Скачайте с [сайта](https://app.vagrantup.com/bento/boxes/ubuntu-20.04) файл-образ "bento/ubuntu-20.04".
 2. Добавьте его в список образов Vagrant: "vagrant box add bento/ubuntu-20.04 <путь к файлу>".
+
+### Ответ:
+
+Vagrant, конечно, выдал 404. Пришлось качать файл-образ. Так или иначе, ВМ создалась и docker поставился. 
+
+```console
+vagrant@server1:~$ docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+```
